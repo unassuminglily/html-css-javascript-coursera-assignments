@@ -5,6 +5,11 @@
      box-sizing: border-box;
  }
  
+ body {
+     background-image: image("css/the-powerpuff-girls-2.jpg");
+     background-color: darkslategray;
+ }
+ 
  h1 {
      margin-bottom: 20px;
      text-align: center;
@@ -16,59 +21,72 @@
      padding: 10px 20px;
      background-color: #fbe3e8;
  }
- 
- .section {
-     /*margin: 10px;
-     border-style: groove;
-     border-width: 2px;
-     border-radius: 12px;
-     border-color: "white";*/
-     padding: 10px 20px;
-     background-color: #ffbbc9c0;
-     float: left;
-     width: 100%;
- }
- 
- .section-frame {
-     position: relative;
+ /*.section {
+     margin: 10px;
      border-style: groove;
      border-width: 2px;
      border-radius: 12px;
      border-color: "white";
+     padding: 10px 20px;
+     background-color: #ffbbc9c0;
+     float: left;
+     width: 100%;
+ }*/
+ 
+ .section-frame {
+     position: relative;
+     border-style: groove;
+     border-width: 5px;
+     border-radius: 12px;
+     border-color: darkorchid;
      /*float: inline-end;*/
      width: 100%;
+ }
+ 
+ .heads {
+     color: white;
+     text-align: justify;
+     float: right;
+     top: 0;
+     right: 0;
+     margin: 0;
+     border-right: 120%;
+     padding: 5px 20px 5px 20px;
+     margin-top: 0;
+     margin-bottom: 20px;
+     background-color: rgba(0, 6, 22, 0.815);
+     position: absolute;
  }
  
  .content {
      text-align: justify;
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     /*clear: both;*/
+     padding: 22px 5px 0px 10px;
+     clear: both;
+     position: relative;
  }
+ /*#no3 {}/*
  /*moving on to the responsive framework*/
  
- #container {
+ .row {
      width: 100%;
      position: relative;
-     /*background-color: lightskyblue;*/
  }
  /*desktop view*/
  
  @media(min-width: 992px) {
-     .section {
-         width: 30%;
+     .col-lg-4 {
+         width: 33.3%;
          float: left;
-         border: 1px solid orchid;
      }
  }
  /*tablet view*/
  
  @media(min-width:768px) and (max-width: 991px) {
-     #no1,
-     #no2 {
+     .col-md-6 {
          width: 50%;
-         border: 1px solid;
      }
-     #no3 {
+     .col-md-12 {
          width: 100%;
          float: left;
      }
