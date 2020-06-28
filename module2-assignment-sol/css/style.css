@@ -1,0 +1,75 @@
+ /**The base styles start here**/
+ 
+ * {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     box-sizing: border-box;
+ }
+ 
+ h1 {
+     margin-bottom: 20px;
+     text-align: center;
+     border-top-style: outset;
+     border-bottom-style: outset;
+     border-width: 2px;
+     border-radius: 12px;
+     border-color: "white";
+     padding: 10px 20px;
+     background-color: #fbe3e8;
+ }
+ 
+ .section {
+     /*margin: 10px;
+     border-style: groove;
+     border-width: 2px;
+     border-radius: 12px;
+     border-color: "white";*/
+     padding: 10px 20px;
+     background-color: #ffbbc9c0;
+     float: left;
+     width: 100%;
+ }
+ 
+ .section-frame {
+     position: relative;
+     border-style: groove;
+     border-width: 2px;
+     border-radius: 12px;
+     border-color: "white";
+     /*float: inline-end;*/
+     width: 100%;
+ }
+ 
+ .content {
+     text-align: justify;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     /*clear: both;*/
+ }
+ /*moving on to the responsive framework*/
+ 
+ #container {
+     width: 100%;
+     position: relative;
+     /*background-color: lightskyblue;*/
+ }
+ /*desktop view*/
+ 
+ @media(min-width: 992px) {
+     .section {
+         width: 30%;
+         float: left;
+         border: 1px solid orchid;
+     }
+ }
+ /*tablet view*/
+ 
+ @media(min-width:768px) and (max-width: 991px) {
+     #no1,
+     #no2 {
+         width: 50%;
+         border: 1px solid;
+     }
+     #no3 {
+         width: 100%;
+         float: left;
+     }
+ }
