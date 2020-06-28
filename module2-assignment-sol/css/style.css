@@ -6,8 +6,8 @@
  }
  
  body {
-     background-image: image("css/the-powerpuff-girls-2.jpg");
-     background-color: darkslategray;
+     background-color: #f9c1b1;
+     background-image: linear-gradient(315deg, #f9c1b1 0%, #fb8085 74%);
  }
  
  h1 {
@@ -21,25 +21,15 @@
      padding: 10px 20px;
      background-color: #fbe3e8;
  }
- /*.section {
-     margin: 10px;
-     border-style: groove;
-     border-width: 2px;
-     border-radius: 12px;
-     border-color: "white";
-     padding: 10px 20px;
-     background-color: #ffbbc9c0;
-     float: left;
-     width: 100%;
- }*/
  
  .section-frame {
      position: relative;
      border-style: groove;
      border-width: 5px;
      border-radius: 12px;
-     border-color: darkorchid;
-     /*float: inline-end;*/
+     border-color: whitesmoke;
+     background-color: #fbe3e8b6;
+     margin: 15px;
      width: 100%;
  }
  
@@ -60,8 +50,8 @@
  
  .content {
      text-align: justify;
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     padding: 22px 5px 0px 10px;
+     font-family: cursive;
+     padding: 25px 5px 0px 25px;
      clear: both;
      position: relative;
  }
