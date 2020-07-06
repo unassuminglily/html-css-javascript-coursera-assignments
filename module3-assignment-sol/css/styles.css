@@ -1,28 +1,55 @@
+/*main content I guess*/
+
 body {
     font-size: 16px;
     color: #fff;
-    background-color: #61122f;
+    background-color: #08306b;
     font-family: 'Oxygen', sans-serif;
+}
+
+h3 {
+    font-family: 'Pacifico', cursive;
+}
+
+.row {
+    position: relative;
+    float: left;
+}
+
+.row {
+    background-color: #f7fbff91;
+    text-align: justify;
+    padding: 15px;
+    margin-bottom: 18px;
+    color: black;
+}
+
+#p-title {
+    font-family: 'Galada', cursive;
 }
 
 
 /** HEADER **/
 
 #header-nav {
-    background-color: #f6b319;
+    background-color: #9ecae1;
     border-radius: 0;
     border: 0;
 }
 
+.navbar-brand {
+    padding-top: 15px;
+}
+
 .navbar-brand h1 {
-    /* Restaurant name */
+    /* Food, LLC */
     font-family: 'Lora', serif;
-    color: #557c3e;
+    color: #0e005c;
     font-size: 1.7em;
     text-transform: uppercase;
     font-weight: bold;
-    text-shadow: 1px 1px 1px #222;
-    margin-top: 05px;
+    text-shadow: 1px 1px 1px #011b30;
+    margin-top: 07px;
     margin-bottom: 10px;
     line-height: .75;
 }
@@ -34,7 +61,7 @@ body {
 
 .navbar-header button.navbar-toggle,
 .navbar-header .icon-bar {
-    border: 1px solid #61122f;
+    border: 1px solid #08306b;
 }
 
 .navbar-header button.navbar-toggle {
@@ -42,29 +69,20 @@ body {
     margin-top: -30px;
 }
 
+#nav-list {
+    margin-top: 15px;
+    background-color: #c6dbef;
+}
+
 #nav-list a {
-    color: beige;
     text-align: center;
+    font-weight: bold;
+    color: cornsilk;
 }
 
 #nav-list a:hover {
-    background-color: blanchedalmond;
+    background-color: #deebf7;
 }
-
-
-/********** Large devices only **********/
-
-@media (min-width: 1200px) {}
-
-
-/********** Medium devices only **********/
-
-@media (min-width: 992px) and (max-width: 1199px) {}
-
-
-/********** Small devices only **********/
-
-@media (min-width: 768px) and (max-width: 991px) {}
 
 
 /********** Extra small devices only **********/
